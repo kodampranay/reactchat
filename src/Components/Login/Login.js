@@ -113,7 +113,7 @@ export default function Login() {
       };
       async function postdata() {
         const data = await axios
-          .post("/login/", { email, password: pass })
+          .post("http://localhost:5000/", { email, password: pass })
           .then((res) => {
             if (res.data.status === 2 || res.data.status === 1) {
               setErr({
