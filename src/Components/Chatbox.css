@@ -1,0 +1,59 @@
+a.nav-link {
+    color: gray;
+    font-size: 18px;
+    padding: 0;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #e84118;
+    padding: 2px;
+    flex: none;
+}
+
+input:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.card-text {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+.avatar-upload:hover img{
+    filter: blur(-2px);
+    -webkit-filter: blur(-2px);
+    border: 1px solid rgb(241, 237, 237);
+}
+.custom-btn{
+    left:36%;
+    color: white;
+    width: 100px !important;
+    margin: auto !important;
+    padding: 5px;
+    border: 1px solid rgb(247, 245, 245);
+    box-shadow: rgb(159, 226, 223);
+    border-radius: 5px;
+    background: linear-gradient(45deg,rgb(164, 164, 224),rgb(211, 196, 167));
+}
+.custom-btn:hover{
+    border: 1px solid rgb(224, 219, 219);
+    background: linear-gradient(45deg,rgb(248, 152, 235),rgb(221, 200, 157));
+}
+.custom-btn-2{
+    left:36%;
+    color: white;
+    width: 100px !important;
+    margin: auto !important;
+    padding: 5px;
+    border: 1px solid rgb(247, 245, 245);
+    box-shadow: rgb(159, 226, 223);
+    border-radius: 5px;
+    background: linear-gradient(45deg,rgb(80, 80, 218),rgb(247, 144, 233));
+}
+.custom-btn-2:hover{
+    border: 1px solid rgb(235, 219, 219);
+    background: linear-gradient(45deg,rgb(248, 152, 235),rgb(221, 200, 157));
+}

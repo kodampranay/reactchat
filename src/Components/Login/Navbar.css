@@ -1,0 +1,10 @@
+.bg-custom
+{
+    background: linear-gradient(45deg,rgb(164, 181, 226),rgb(190, 88, 190));
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(206, 201, 201);
+    color: white;
+}
